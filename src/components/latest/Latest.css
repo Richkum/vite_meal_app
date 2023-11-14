@@ -1,0 +1,23 @@
+.latest-recipe {
+  padding-top: 50px;
+  width: 90%;
+  margin: auto;
+}
+
+.latest {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 2.5rem;
+}
+
+.late {
+  width: 100%;
+  margin: auto;
+  box-shadow: 1px 1px 10px rgb(0, 78, 114);
+}
+
+.recip-img {
+  width: 100%;
+  border-radius: 10px;
+}

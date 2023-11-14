@@ -1,0 +1,42 @@
+.nav-div {
+  width: 100%;
+  padding-top: 50px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav1 {
+  width: 50%;
+}
+
+.nav-img1 {
+  width: 25%;
+}
+
+.nav2 {
+  display: flex;
+  /* gap: 1.5rem; */
+}
+
+#select {
+  background-color: #fff;
+  border: none;
+}
+
+.nav3 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  float: right;
+}
+
+.nav-img2 {
+  width: 15%;
+  height: auto;
+  border-radius: 50%;
+}
