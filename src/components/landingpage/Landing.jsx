@@ -7,24 +7,24 @@ const LandingPage = () => {
     <>
       <div className="nav-div">
         <nav>
-          <div className="nav1">
-            <i className="fa-brands fa-facebook-f"></i>
-            <i className="fa-brands fa-twitter"></i>
-            <i className="fa-brands fa-instagram"></i>
+          <div class="nav1">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
           </div>
-          <div className="nav2">
-            <i className="fa-solid fa-magnifying-glass"></i>
-            <button className="btn">Login</button>
+          <div class="nav2">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <button class="btn">Login</button>
           </div>
-          <div className="nav3">
-            <i className="fa-solid fa-magnifying-glass"></i>
-            <img src="/images/Logo.png" alt="" />
-            <i className="fa-solid fa-bars"></i>
+          <div class="nav3">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <img src="src/assets/images/Logo.png" alt="" />
+            <i class="fa-solid fa-bars"></i>
           </div>
         </nav>
       </div>
       <div className="icon">
-        <img src="/images/Logo 2.png" alt="" />
+        <img src="src/assets/images/Logo.png" alt="" />
       </div>
       <div className="mid-items">
         <p>Homepage</p>
