@@ -49,3 +49,10 @@
   gap: 0.5rem;
   font-size: 7px;
 }
+
+@media screen and (max-width: 425px) {
+  .favourite {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}

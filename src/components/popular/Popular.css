@@ -29,3 +29,19 @@
 .pasta {
   text-align: center;
 }
+
+@media screen and (max-width: 425px) {
+  .hh1 {
+    font-size: 30px;
+  }
+
+  .popular {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .pop1 {
+    width: 90%;
+    /* height: auto; */
+  }
+}
