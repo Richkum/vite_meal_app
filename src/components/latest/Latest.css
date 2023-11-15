@@ -22,6 +22,10 @@
   border-radius: 10px;
 }
 
+.camel {
+  text-align: center;
+}
+
 @media screen and (max-width: 425px) {
   .latest {
     display: grid;

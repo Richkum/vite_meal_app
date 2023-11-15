@@ -1,3 +1,71 @@
+.sec-2 {
+  width: 100%;
+  padding-top: 50px;
+}
+
+.navv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navv1 {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.p {
+  font-size: small;
+}
+
+.navv2 {
+  display: flex;
+  gap: 1rem;
+}
+
+.msglog {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.imgtxt {
+  width: 6%;
+  border-radius: 50%;
+}
+
+.one {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.comt-div {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.fa-calendar-minus {
+  font: 100;
+}
+
+.txt {
+  font-size: 10px;
+}
+
+.yest-div {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.stars {
+  width: 80%;
+  color: #ffa500;
+}
+
 .img-div {
   width: 100%;
 }

@@ -7,21 +7,21 @@ const LandingPage = () => {
     <>
       <div className="nav-div">
         <nav>
-          <div class="nav1">
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-instagram"></i>
+          <div className="nav1">
+            <i className="fa-brands fa-facebook-f"></i>
+            <i className="fa-brands fa-twitter"></i>
+            <i className="fa-brands fa-instagram"></i>
           </div>
-          <div class="nav2">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <button class="btn">Login</button>
-          </div>
-          <div class="nav3">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <img src="src/assets/images/Logo.png" alt="" />
-            <i class="fa-solid fa-bars"></i>
+          <div className="nav2">
+            <i className="fa-solid fa-magnifying-glass"></i>
+            <button className="btn">Login</button>
           </div>
         </nav>
+      </div>
+      <div id="navv">
+        <i className="fa-solid fa-magnifying-glass"></i>
+        <img src="src/assets/images/Logo.png" alt="" />
+        <i className="fa-solid fa-bars"></i>
       </div>
       <div className="icon">
         <img src="src/assets/images/Logo.png" alt="" />

@@ -1,8 +1,8 @@
 import React from "react";
-import SecondDiv from "../Second/SecondDiv";
 import DisplayVideo from "../Dispvideo/DisplayVideo";
 import "./Land.css";
 import ProcedueList from "../Procedue/Procedue";
+import SimilarCat from "../similar/SimilarCat";
 
 const LandDescribe = () => {
   return (
@@ -36,9 +36,9 @@ const LandDescribe = () => {
           </div>
         </nav>
       </div>
-      <SecondDiv />
       <DisplayVideo />
       <ProcedueList />
+      <SimilarCat />
     </>
   );
 };
