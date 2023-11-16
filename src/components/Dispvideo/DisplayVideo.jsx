@@ -4,29 +4,29 @@ import "./Dispvid.css";
 const DisplayVideo = () => {
   const apiIng = "https://www.themealdb.com/api/json/v1/1/search.php?s";
 
-  const mealId = urlParam.get("id");
+  // const mealId = urlParam.get("id");
 
-  const { meals } = useQuery({
-    queryKey: ["Keyy"],
-    queryFn: async () => {
-      return await Axios.get(apiIng).then((res) => {
-        displayVideo(res.meals);
-      });
-    },
-  });
+  // const { meals } = useQuery({
+  //   queryKey: ["Keyy"],
+  //   queryFn: async () => {
+  //     return await Axios.get(apiIng).then((res) => {
+  //       displayVideo(res.meals);
+  //     });
+  //   },
+  // });
 
-  function displayVideo(meals) {
-    meals;
-    meals.forEach((meal) => {
-      if (mealId == meal.idMeal) {
-        const videoURL = meal.strYoutube;
-        console.log(videoURL);
-        const splited = videoURL.split("v=");
-        const videoId = splited[1];
-        console.log(splited);
-      }
-    });
-  }
+  // function displayVideo(meals) {
+  //   meals;
+  //   meals.forEach((meal) => {
+  //     if (mealId == meal.idMeal) {
+  //       const videoURL = meal.strYoutube;
+  //       console.log(videoURL);
+  //       const splited = videoURL.split("v=");
+  //       const videoId = splited[1];
+  //       console.log(splited);
+  //     }
+  //   });
+  // }
 
   return (
     <>
