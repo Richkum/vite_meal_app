@@ -1,20 +1,23 @@
 import React from "react";
 import "./Dispvid.css";
+import { useQuery } from "react-query";
+import Axios from "axios";
 
 const DisplayVideo = () => {
-  const apiIng = "https://www.themealdb.com/api/json/v1/1/search.php?s";
+  const apiIng = "https://www.themealdb.com/api/json/v1/1/search.php?s=";
 
-  // const mealId = urlParam.get("id");
+  const mealId = urlParam.get("id");
 
-  // const { meals } = useQuery({
-  //   queryKey: ["Keyy"],
-  //   queryFn: async () => {
-  //     return await Axios.get(apiIng).then((res) => {
-  //       displayVideo(res.meals);
-  //     });
-  //   },
-  // });
-
+  const { meals } = useQuery({
+    queryKey: ["Keyy"],
+    queryFn: async () => {
+      return await Axios.get(apiIng).then(
+        (res) => res.meals
+        // displayVideo(res.meals);
+      );
+    },
+  });
+  console.log(meals);
   // function displayVideo(meals) {
   //   meals;
   //   meals.forEach((meal) => {

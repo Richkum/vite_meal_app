@@ -31,10 +31,10 @@ const LatestFoods = () => {
             <>
               {data.meals?.map((ele) => (
                 <div className="late">
-                  <Link to="/Describeland">
+                  <Link to={`/Describeland?${ele.idMeal}`}>
                     <img className="recip-img" src={ele.strMealThumb} alt="" />
                   </Link>
-                  <Link to="/Describeland">
+                  <Link to="/Describeland?id=${food.idMeal}">
                     <h4 className="camel">{ele.strMeal}</h4>
                   </Link>
                 </div>

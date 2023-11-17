@@ -5,8 +5,8 @@ import LatestFoods from "./components/latest/Latest";
 import LandDescribe from "./components/DescribeLand/LandDescribe";
 import { QueryClient, QueryClientProvider } from "react-query";
 
+const client = new QueryClient();
 function App() {
-  const client = new QueryClient();
   return (
     <>
       <QueryClientProvider client={client}>
