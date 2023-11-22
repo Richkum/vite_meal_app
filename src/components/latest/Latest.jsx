@@ -31,7 +31,7 @@ const LatestFoods = () => {
             <>
               {data.meals?.map((ele) => (
                 <div className="late">
-                  <Link to={`/Describeland?${ele.idMeal}`}>
+                  <Link to={`/Describeland?id=${ele.idMeal}`}>
                     <img className="recip-img" src={ele.strMealThumb} alt="" />
                   </Link>
                   <Link to="/Describeland?id=${food.idMeal}">

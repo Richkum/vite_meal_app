@@ -4,20 +4,20 @@ import { useQuery } from "react-query";
 import Axios from "axios";
 
 const DisplayVideo = () => {
-  const apiIng = "https://www.themealdb.com/api/json/v1/1/search.php?s=";
+  const apiIng = "https://www.themealdb.com/api/json/v1/1/search.php?s";
 
-  const mealId = urlParam.get("id");
+  // const mealId = urlParam.get("id");
 
-  const { meals } = useQuery({
+  const { data } = useQuery({
     queryKey: ["Keyy"],
     queryFn: async () => {
       return await Axios.get(apiIng).then(
-        (res) => res.meals
+        (res) => res.data
         // displayVideo(res.meals);
       );
     },
   });
-  console.log(meals);
+  console.log(data);
   // function displayVideo(meals) {
   //   meals;
   //   meals.forEach((meal) => {
