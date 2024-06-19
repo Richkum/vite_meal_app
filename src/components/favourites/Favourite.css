@@ -1,0 +1,58 @@
+.favourite-cat {
+  padding-top: 50px;
+  width: 85%;
+  margin: auto;
+}
+
+.favourite {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 1rem;
+}
+
+.favour {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  /* gap: 1rem; */
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 6px 2px grey;
+  height: auto;
+}
+
+.fav-img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.stars {
+  width: 100%;
+}
+
+.fa-solid {
+  font-size: small;
+}
+
+.fav1 {
+  display: flex;
+  gap: 0.5rem;
+  width: 25%;
+  height: auto;
+}
+
+.msglog {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 0.5rem;
+  font-size: 7px;
+}
+
+@media screen and (max-width: 425px) {
+  .favourite {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}

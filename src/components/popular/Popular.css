@@ -1,0 +1,47 @@
+.popular-cat {
+  padding-top: 50px;
+  width: 85%;
+  margin: auto;
+}
+
+.hh1 {
+  font-size: 60px;
+}
+
+.popular {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.pop1 {
+  width: 100%;
+  height: auto;
+  box-shadow: 2px 2px 7px 2px rgb(255, 250, 246);
+}
+
+.pop-img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.pasta {
+  text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+  .hh1 {
+    font-size: 30px;
+  }
+
+  .popular {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .pop1 {
+    width: 90%;
+    /* height: auto; */
+  }
+}
